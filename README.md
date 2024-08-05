@@ -107,7 +107,14 @@ This project is licensed under the [MIT License](./LICENSE).
 If you find this project interesting and inspiring, please consider showing your support by starring it on GitHub! Your star goes a long way in helping me reach more developers and encourages me to keep enhancing the project.
 
 Feel free to get in touch with me for any further queries or support, happy to help :)
-
+# installs nvm (Node Version Manager)
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+# download and install Node.js (you may need to restart the terminal)
+nvm install 22
+# verifies the right Node.js version is in the environment
+node -v # should print `v22.5.1`
+# verifies the right npm version is in the environment
+npm -v # should print `10.8.2`
 <hr>
 
  <!-- Cotributors -->
@@ -121,4 +128,8 @@ We extend our heartfelt gratitude for your invaluable contribution to our projec
 <a href="https://github.com/krishnaacharyaa/wanderlust/graphs/contributors">
   <img width="90%" src="https://contrib.rocks/image?repo=krishnaacharyaa/wanderlust" />
 </a>
-</div>
+clear
+
+:wq
+:wq
+
